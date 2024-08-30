@@ -1,0 +1,32 @@
+/* Button Styles */
+.activate_gambit {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button Styles on Hover */
+.activate_gambit:hover {
+  background-color: #0056b3;
+}
+
+/* Button Styles on Click */
+.activate_gambit:active {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Button Styles when Active */
+.activate_gambit.active {
+  background-color: #28a745;
+}
+
+.activate_gambit[disabled] {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}

@@ -1,0 +1,23 @@
+/* Styles for dropdowns */
+.dropdown1,
+.dropdown2 {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 6px 6px; /* Adjust padding for better appearance */
+    font-size: 10px; /* Adjust font size */
+    border: 1px solid #130b0b; /* Add border for clarity */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #ffffff; /* Set background color */
+}
+
+.dropdown1:focus,
+.dropdown2:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: #007bff; /* Change border color on focus */
+    border-color: rgba(7, 7, 7, 0.5);
+}
+
+/* Style for dropdown options */
+option {
+    font-size: 10px; /* Adjust font size */
+}

@@ -1,0 +1,31 @@
+.submitBtn {
+    background-color: #337ab7;
+    /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.submitBtn:hover {
+    background-color: #45a049;
+}
+
+.submitBtn[disabled] {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+/* Enabled Button Styles */
+.submitBtn.enabled {
+    background-color: #28a745;
+    color: #fff;
+}

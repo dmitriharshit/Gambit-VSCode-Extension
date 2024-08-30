@@ -1,0 +1,13 @@
+.outputarea {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Allows the height to adjust based on content */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border: 1px solid #f1eeee; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Makes sure padding and border are included in the element's total width and height */
+    resize: none; /* Allows vertical resizing only */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    /* Add any additional styles you need */
+}
